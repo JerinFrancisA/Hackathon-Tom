@@ -30,11 +30,17 @@ class _Screen1State extends State<Screen1> {
                 child: Card(
                   elevation: 6.0,
                   child: ListTile(
-                    title: Text(hacks[index]['event'] +
-                        '\nStart: ' +
-                        hacks[index]['start'] +
-                        '\nEnd: ' +
-                        hacks[index]['end']),
+                    title: Text(
+                      hacks[index]['event'] +
+                          '\nStart: ' +
+                          hacks[index]['start'] +
+                          '\nEnd: ' +
+                          hacks[index]['end'],
+                      style: TextStyle(
+                        fontSize: 40.0,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
                     trailing: Icon(
                       Icons.play_arrow,
                       size: 45.0,
