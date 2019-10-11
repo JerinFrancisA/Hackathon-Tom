@@ -35,7 +35,10 @@ class _Screen1State extends State<Screen1> {
                         hacks[index]['start'] +
                         '\nEnd: ' +
                         hacks[index]['end']),
-                    trailing: Icon(Icons.play_arrow),
+                    trailing: Icon(
+                      Icons.play_arrow,
+                      size: 45.0,
+                    ),
                     isThreeLine: true,
                   ),
                 ),
