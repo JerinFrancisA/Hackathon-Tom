@@ -17,7 +17,8 @@ class _Screen1State extends State<Screen1> {
       child: Scaffold(
         appBar: AppBar(
           title: Text('HackaTom'),
-
+          centerTitle: true,
+          automaticallyImplyLeading: false,
         ),
         body: ListView.builder(
           itemBuilder: (context, index) {
