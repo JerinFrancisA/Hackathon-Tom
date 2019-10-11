@@ -38,14 +38,20 @@ class _Screen1State extends State<Screen1> {
                   elevation: 6.0,
                   child: ListTile(
                     title: Text(
-                      hacks[index]['event'] +
-                          '\nStart: ' +
+                      hacks[index]['event'],
+                      style: TextStyle(
+                        fontSize: 40.0,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                    subtitle: Text(
+                      'Start: ' +
                           hacks[index]['start'] +
                           '\nEnd: ' +
                           hacks[index]['end'],
                       style: TextStyle(
-                        fontSize: 40.0,
-                        fontWeight: FontWeight.w500,
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.w300,
                       ),
                     ),
                     trailing: Icon(
