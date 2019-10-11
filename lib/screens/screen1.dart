@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:future_hacks/utilities/hacks.dart';
 
+import 'package:flutter_web_browser/flutter_web_browser.dart';
+
 class Screen1 extends StatefulWidget {
   static const routeName = 'Screen1';
 
@@ -17,7 +19,12 @@ class _Screen1State extends State<Screen1> {
         body: ListView.builder(
           itemBuilder: (context, index) {
             return GestureDetector(
-              onTap: () {},
+              onTap: () {
+                FlutterWebBrowser.openWebPage(
+                  url: hacks[index]['href'],
+                  androidToolbarColor: Colors.white,
+                );
+              },
               child: ListTile(
                 title: Text(hacks[index]['event'] +
                     '\nStart: ' +
