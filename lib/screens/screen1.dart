@@ -41,7 +41,7 @@ class _Screen1State extends State<Screen1> {
                     title: Text(
                       hacks[index]['event'],
                       style: TextStyle(
-                        fontSize: 30.0,
+                        fontSize: 24.0,
                         fontWeight: FontWeight.w500,
                       ),
                     ),
