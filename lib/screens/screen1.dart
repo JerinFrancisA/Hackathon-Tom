@@ -19,6 +19,9 @@ class _Screen1State extends State<Screen1> {
           title: Text('HackaTom'),
           centerTitle: true,
           automaticallyImplyLeading: false,
+          actions: <Widget>[
+            Icon(Icons.account_circle),
+          ],
         ),
         body: ListView.builder(
           itemBuilder: (context, index) {
