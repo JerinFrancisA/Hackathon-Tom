@@ -26,7 +26,7 @@ class _Screen1State extends State<Screen1> {
                 );
               },
               child: Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(12.0),
                 child: Card(
                   elevation: 6.0,
                   child: ListTile(
