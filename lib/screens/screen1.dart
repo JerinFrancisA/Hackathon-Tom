@@ -22,6 +22,7 @@ class _Screen1State extends State<Screen1> {
           actions: <Widget>[
             Icon(Icons.account_circle),
           ],
+          backgroundColor: Colors.black,
         ),
         body: ListView.builder(
           itemBuilder: (context, index) {
@@ -40,7 +41,7 @@ class _Screen1State extends State<Screen1> {
                     title: Text(
                       hacks[index]['event'],
                       style: TextStyle(
-                        fontSize: 40.0,
+                        fontSize: 30.0,
                         fontWeight: FontWeight.w500,
                       ),
                     ),
@@ -50,7 +51,7 @@ class _Screen1State extends State<Screen1> {
                           '\nEnd: ' +
                           hacks[index]['end'],
                       style: TextStyle(
-                        fontSize: 20.0,
+                        fontSize: 16.0,
                         fontWeight: FontWeight.w300,
                       ),
                     ),
