@@ -8,6 +8,7 @@ class Screen1 extends StatefulWidget {
 }
 
 class _Screen1State extends State<Screen1> {
+  List<String> hacks = [];
   @override
   Widget build(BuildContext context) {
     return SafeArea(
