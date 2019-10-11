@@ -15,7 +15,10 @@ class _Screen1State extends State<Screen1> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          title: Text('HackaTom'),
+
+        ),
         body: ListView.builder(
           itemBuilder: (context, index) {
             return GestureDetector(
