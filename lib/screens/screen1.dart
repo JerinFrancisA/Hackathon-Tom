@@ -22,7 +22,7 @@ class _Screen1State extends State<Screen1> {
               onTap: () {
                 FlutterWebBrowser.openWebPage(
                   url: hacks[index]['href'],
-                  androidToolbarColor: Colors.white,
+                  androidToolbarColor: Colors.indigo,
                 );
               },
               child: Padding(
