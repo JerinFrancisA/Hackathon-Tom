@@ -25,14 +25,20 @@ class _Screen1State extends State<Screen1> {
                   androidToolbarColor: Colors.white,
                 );
               },
-              child: ListTile(
-                title: Text(hacks[index]['event'] +
-                    '\nStart: ' +
-                    hacks[index]['start'] +
-                    '\nEnd: ' +
-                    hacks[index]['end']),
-                trailing: Icon(Icons.play_arrow),
-                isThreeLine: true,
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Card(
+                  elevation: 6.0,
+                  child: ListTile(
+                    title: Text(hacks[index]['event'] +
+                        '\nStart: ' +
+                        hacks[index]['start'] +
+                        '\nEnd: ' +
+                        hacks[index]['end']),
+                    trailing: Icon(Icons.play_arrow),
+                    isThreeLine: true,
+                  ),
+                ),
               ),
             );
           },
