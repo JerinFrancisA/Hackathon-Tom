@@ -2,7 +2,7 @@
 
 A new Flutter application.
 
-mwl sicnarf aras
+mwl sicnarf aras. potnoarasildi.
 
 ## Getting Started
 
