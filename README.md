@@ -2,8 +2,6 @@
 
 A new Flutter application.
 
-mwl sicnarf aras. potnoarasildi.
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
